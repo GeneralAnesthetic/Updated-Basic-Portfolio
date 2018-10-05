@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- sets refresh to homepage:   
+<meta http-equiv="Refresh" content="0; url=http://www.example.com/home.html" /> -->
+    <base href="/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" src="../css/style.css">
+
+
+</head>
+
+<body>
+    <loom-container>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="container-fluid float-left">
+                        <h3 class="navbar-brand">Rob Schear</h3>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav ml-3">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="/portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="https://llnewcastlell.github.io/PersonalFoulsV2/index.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="container-fluid text-center">
+                <div class="row content">
+                    <div class="col-sm-2 sidenav">
+                        <p>
+                            <a href="https://stark-ravine-11277.herokuapp.com/">Link</a>
+                        </p>
+                        <p>
+                            <a href="#">Link</a>
+                        </p>
+                        <p>
+                            <a href="#">Link</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-8 text-left">
+                        <p class="Carousel"></p>
+                        <h2>Welcome</h2>
+                        <p class="rounded float-right">
+
+                            <div class="jumbotron container-fluid">
+                                <!-- <h2>Activate Carousel with JavaScript</h2> -->
+                                <div id="myCarousel" class="carousel slide">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <!-- <li class="item1 active"></li> -->
+                                        <li class="item2 active"></li>
+                                        <li class="item3"></li>
+                                        <li class="item4"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+
+                                        <!-- <div class="item active">
+                                    <img src="Assets/images/hands.png" alt="Chania">
+                                    <div class="carousel-caption">
+                                        <h3 class="textBlack2">Hark! A thumb!</h3>
+                                        <p class="textBlack2">My Name is Robert Schear</p>
+                                    </div>
+                                </div> -->
+
+                                        <div class="item active">
+                                            <img src="https://images.freeimages.com/images/small-previews/1cb/close-squirrel-1381764.jpg" alt="Squirrels">
+                                            <div class="carousel-caption">
+                                                <h3 style="color:black;">Squirrels...and yet...</h3>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="https://images.freeimages.com/images/small-previews/efb/eggs-oranges-5-1546938.jpg" alt="Flower">
+                                            <div class="carousel-caption">
+                                                <p style="color:rgb(53, 53, 53);">The next slide will display the image of a puffy little frog named "Pip".
+                                                    Though, I am not a frog, I am a Developer-in-training, which is kind
+                                                    of like being an Egg maybe? Like, ready to hatch n'such?</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img style="opacity:0.4;" src="https://images.freeimages.com/images/small-previews/e71/frog-1371919.jpg" alt="Frog">
+                                            <div class="carousel-caption">
+                                                <br>
+                                                <p style="color: black; margin-top: 0px;"> On second thought, an egg really isn't a fitting analogy. And neither is
+                                                    a frog. So, just keep in mind the Developer-in-training (named 'Rob')
+                                                    part!
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Left and right controls -->
+                                    <a class="left carousel-control" href="#myCarousel" role="button">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                            <ul class="carousel-indicators">
+                                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="5"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="6"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="7"></li>
+
+                            </ul>
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" alt="I am the.....how do you say?">
+                                    <div class="carousel-caption">
+                                        <h3>I am the.....how do you say?</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" alt="Rob Schear">
+                                    <div class="carousel-caption">
+                                        <h3>Rob Schear</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" alt="The Name is Like Freshness">
+                                    <div class="carousel-caption">
+                                        <h3>The Name is Like Freshness!</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" alt="You Will Like it Now">
+                                    <div class="carousel-caption">
+                                        <h3>You will Like it Now!/h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" alt="I am not a Frog. I am a Developer in Training">
+                                    <div class="carousel-caption">
+                                        <h3>I am not a Frog. I am a Developer in Training</h3>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" alt="I am not frog">
+                                    <div class="carousel-caption">
+                                        <h3>I am not frog</h3>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" alt="Nor am I an Apple-Blossom. No!">
+                                    <div class="carousel-caption">
+                                        <h3>Nor am I an Apple-Blossom. No!</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div> -->
+
+
+                            <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </loom-container>
+    <footer class="container-fluid text-center">
+        <p>Images from FreeImages.Com</p>
+    </footer>
+    <script type="text/javascript">$(document).ready(function () {
+            // Activate Carousel
+            $("#myCarousel").carousel({
+                interval: 10000
+            });
+
+            // Enable Carousel Indicators
+            $(".item1").click(function () {
+                $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function () {
+                $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function () {
+                $("#myCarousel").carousel(2);
+            });
+            $(".item4").click(function () {
+                $("#myCarousel").carousel(3);
+            });
+
+            // Enable Carousel Controls
+            $(".left").click(function () {
+                $("#myCarousel").carousel("prev");
+            });
+            $(".right").click(function () {
+                $("#myCarousel").carousel("next");
+            });
+        });</script>
+    <!-- <script type="text/javascript"></script> -->
+</body>
+
+</html>

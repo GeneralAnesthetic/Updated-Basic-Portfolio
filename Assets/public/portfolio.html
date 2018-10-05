@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- <script src='gifshot.js'></script> -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <title>Document</title>
+
+    <style>
+        @media(max-width: 600px) {
+            #Name {
+                font-style: bold;
+            }
+            .container-fluid {
+                width: 100%;
+                display: inline-flex;
+            }
+            img {
+                width: 50%;
+                height: 50%;
+            }
+        }
+
+        @media(min-width: 1400px) {
+            #Name {
+                font-style: bold;
+                font-size: 2.75em;
+            }
+            .container-fluid {
+                width: 100%;
+                display: inline-flex;
+                shape-margin: 0px;
+                border: 5px black;
+            }
+            img {
+                width: 1.25em;
+                height: 1.25em;
+            }
+            body {
+                background-color: lightslategray;
+            }
+        }
+
+        footer {
+            color: darkslategray;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            position: absolute;
+        }
+
+        body {
+            background-color: radial-gradient(circle, black, white);
+        }
+
+
+        .container-fluid {
+
+            background-color: radial-gradient(circle, black, white);
+            background-color: darkgrey;
+
+            border: 1px darkblue;
+            color: black;
+        }
+
+        a {
+            color: darkblue
+        }
+
+        #Name {
+            font-size: 2.5em;
+            text-decoration: none;
+            transition: background-color 0.5s ease;
+            background-color: lightgray;
+            margin-left: 4%;
+            border-radius: 10px 10px 10px 10px;
+            border: solid 1px lightslategray;
+            padding: 5px;
+            transition: border .5s ease-out;
+        }
+
+        #Name:hover {
+            border-color: dimgrey;
+            background-color: darkgray;
+        }
+
+        #navbarText {
+
+            color: black;
+
+        }
+
+        #navbarText:hover {
+            color: darkslategray
+        }
+
+        .jumbotron {
+
+            background-image: url("hands.png");
+            background-color: radial-gradient(circle,
+            black,
+            white);
+            top: 38%;
+            left: 0%;
+            right: 0%;
+            /* width: 95%; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            text-align: center;
+            color: darkslategray;
+            bottom: 0;
+            text-align: center;
+        }
+
+        /* #bottomDiv {
+            z-index: 0;
+            background-color: radial-gradient(circle,
+            black,
+            white);
+            height: 62%;
+            width: 95%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: darkslategray;
+            bottom: 0%
+        } */
+
+        #spunk {
+            background-color: radial-gradient(circle, black, white);
+            transition: background-color 0.5s ease;
+        }
+
+        #spunk:hover {
+            background-color: dimgray;
+        }
+
+        .display-4 {
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <loom-container>
+        <nav "navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col ml-auto" id="spunk">
+                        <span class="navbar-brand mb-0 h1" id="Name">Robert Schear</span>
+                    </div>
+                    <div class="col-md-2 mr-auto">
+                        <ul class="nav navbar-nav" id="navbarText">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://llnewcastlell.github.io/PersonalFoulsV2/index.html">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="row justify-content-center" style: "margin-top: 0px">
+                <h5 class="display-4" style="font-weight: bold">Portfolio!</h5>
+            </div>
+            <hr>
+            <div class="row justify-content-center">
+                <img class="col-md-4 rounded float-left" src="https://images.freeimages.com/images/large-previews/e71/frog-1371919.jpg" width="120"
+                    height="160" alt="THUMBS DOWN!">
+                <img class="col-md-4 rounded float-right" src="https://media.giphy.com/media/PQMz3yimQ2I28YPil8/giphy.gif" alt="THUMBS DOWN!"
+                    height="170" width="135">
+            </div>
+            <br>
+            <div class="row justify-content-center">
+                <img class="col-md-4 img-rounded float-left" src="https://images.freeimages.com/images/small-previews/1cb/close-squirrel-1381764.jpg"
+                    alt="THUMBS DOWN!" height="170" width="135">
+
+                <img class="col-md-4 img-rounded float-right" src="https://images.freeimages.com/images/small-previews/efb/eggs-oranges-5-1546938.jpg"
+                    alt="THUMBS DOWN!" height="170" width="135">
+            </div>
+            <hr>
+            <br>
+            <footer> Copywrite@ Icon made by Gregor Cresnar from www.flaticon.com / Other Images from FreeImages.com And Giphy.com</footer>
+        </div>
+        <!-- <div id="bottomDiv"></div> -->
+    </loom-container>
+</body>
+<!-- <script type="text/javascript" src="./libgif.js"></script>
+
+</html>
+
+
+<! <center class="col-md-6">
+        <h1>Example with controls and no auto-play</h1>
+        <img class="col-md-6" id="example1" src="./images/Burb.jpg" rel:animated_src="./example_gifs/rub_test.gif" rel:auto_play="0" width="467" height="375"
+        />
+        <br>
+        <script type="text/javascript">
+            var sup1 = new SuperGif({ gif: document.getElementById('example1') });
+            sup1.load();
+        </script>
+        <a href="javascript:;" onmousedown="sup1.pause(); return false;">Pause</a> |
+        <a href="javascript:;" onmousedown="sup1.play(); return false;">Play</a> |
+        <a href="javascript:;" onmousedown="sup1.move_to(0); return false;">Restart</a> |
+        <a href="javascript:;" onmousedown="sup1.move_relative(1); return false;">Step forward</a> |
+        <a href="javascript:;" onmousedown="sup1.move_relative(-1); return false;">Step back</a>
+
+        <h1>Example with rubbing and auto-play on</h1>
+        <img id="example2" src="./example_gifs/rub_test.gif" rel:auto_play="1" width="467" height="375" rel:rubbable="1" />
+        <br>
+        <script type="text/javascript">
+            var sup2 = new RubbableGif({ gif: document.getElementById('example2') });
+            sup2.load();
+        </script>
+
+        <br>
+        <br>
+        <p>Image via
+            <a href="http://mlkshk.com/p/IP08">mlkshk</a>
+        </p>
+    </center> -->

@@ -1,0 +1,193 @@
+html {
+  background-color: radial-gradient(circle, black, white);
+}
+
+body {
+  /* width: fit-content; */
+  /* background-color: lightgrey; */
+
+  /* position: relative; */
+  /* margin: 0 auto; */
+  box-sizing: border-box;
+  position: absolute;
+  /* display: inline-flex; */
+  font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+  line-height: 20px;
+  color: Black;
+  z-index: 1;
+}
+
+.NavBar {
+  /* position: absolute; */
+  /* overflow: auto; */
+  display: inline;
+  position: relative;
+  /* clear: both; */
+  /* float: right; */
+  border: 6px black;
+  /* background-color: gray; */
+  list-style-type: none;
+  padding: 30px;
+  /* width: 100%; */
+  word-spacing: 2px;
+  /* margin-left: 0px; */
+  margin: 0 auto;
+  /* width: 960px; */
+  z-index: -1;
+}
+
+nav {
+  width: 100%;
+  background-color: gray;
+  float: right;
+}
+
+h1 {
+  /* position: absolute; */
+  /* clear: both; */
+  /* display: inline-flex; */
+  float: left;
+  /* overflow: auto; */
+  background-color: blue;
+  /* position: relative; */
+  /* margin-left: 100px; */
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 60px;
+  width: 100px;
+  margin-left: 80px;
+  text-align: center;
+  font-size: 1em bold;
+  /* margin-right: 750px; */
+  z-index: 1;
+}
+
+/* .NavBar { */
+
+/* width: auto; */
+
+/* } */
+
+item,
+li a,
+a :link,
+a :visited,
+a :hover,
+a :active {
+  /* color: black; */
+  float: right;
+  /* margin-right: 0px; */
+  text-decoration: none;
+  word-spacing: 8px;
+  color: palegoldenrod;
+  text-decoration: none;
+  background-color: darkgray;
+  width: 100%;
+}
+
+h2 {
+  clear: both;
+  padding: 20px;
+  margin-left: 170px;
+  margin-top: 300px;
+  font-size: 2em;
+}
+
+.Content {
+  /* position: absolute; */
+  clear: both;
+  position: absolute;
+  float: left;
+  /* width: 960px; */
+  word-wrap: right;
+  width: 960px;
+  height: 300px;
+  /* Display: inline-block; */
+  /* overflow: auto; */
+  padding: 60px;
+  margin-top: 400px;
+  margin-left: 110px;
+  margin-bottom: 150px;
+  margin-right: 650px;
+  border: 8px #dddddd;
+  background-color: #ffffff;
+  /* * The entire content and the main section content area is `960px` wide. */
+  /* * Pro-tip: Use the [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn/related?hl=en) extension to measure the size of elements. */
+  text-align: left;
+}
+
+#Thumb {
+  /* position: relative; */
+  /* float: left; */
+  /* clear: both; */
+  /* Display: inline-flex; */
+  float: left;
+  /* overflow: auto; */
+  padding: 10px;
+  border: 2px black;
+  margin-left: 0px;
+}
+/* 
+        .carousel-inner>.item>img,
+        .carousel-inner>.item>a>img {
+            width: 70%;
+            margin: auto; */
+
+/* * The background pattern used was found on [Subtle Patterns](https://subtlepatterns.com/). You can browse through that site and find whichever pattern you like. */
+
+/* * Placeholder images can be found at [LoremPixel](http://lorempixel.com/). */
+
+/* * Save the images to your `images` folder. */
+
+/* * Use a picture of yourself. */
+
+/* * If you don't have a picture, you can grab a placeholder image from [LoremPixel](http://lorempixel.com/). Save the images to your `images` folder. */
+
+/* h1, 
+ h2 {
+     clear: both;
+     overflow: auto;
+     position: relative;
+     float: left;
+     padding: 1em;
+     font-size: 28px;
+     background-color: #ffffff;
+     text-align: center;
+     margin-top: 0px;
+     margin-left: 100px;
+     line-height: 80px;
+     border: 10px #cccccc;
+     font-family: "Georgia", "Times", "Times New Roman", "serif";
+ } */
+/* 
+footer {
+  text-align: center;
+  clear: both;
+  overflow: auto;
+  background-color: #666666;
+  position: absolute;
+  height: [footer-height];
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+ 
+} */
+
+/* 
+I got this too work in W3Schools "Try-it Yourself".So, "a" equals "li-a" above and ".Cheeky" would eqaute to the "NavItems" div and "h1" above eqautes to "p" below. 
+
+.Cheeky {background-color: green; width: 600px;}
+a {
+//position: absolute;
+color: black;
+    float: right;
+    margin-left: 70px; 
+	text-decoration: none;
+}
+p {display: inline-flex; background-color: gray; margin-top: 0px;}
+</style>
+</head>
+<body>
+
+ */
